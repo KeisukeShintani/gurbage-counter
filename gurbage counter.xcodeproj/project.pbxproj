@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9120DF83237FBB47009E68F8 /* colenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9120DF82237FBB47009E68F8 /* colenderViewController.swift */; };
 		912D2282235ADBAB00AC8410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D2281235ADBAB00AC8410 /* AppDelegate.swift */; };
 		912D2284235ADBAB00AC8410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D2283235ADBAB00AC8410 /* ViewController.swift */; };
 		912D2287235ADBAB00AC8410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912D2285235ADBAB00AC8410 /* Main.storyboard */; };
 		912D2289235ADBAE00AC8410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912D2288235ADBAE00AC8410 /* Assets.xcassets */; };
 		912D228C235ADBAE00AC8410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912D228A235ADBAE00AC8410 /* LaunchScreen.storyboard */; };
-		912D22C1235AFC7000AC8410 /* pet-bottle_44335-101x101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912D22C0235AFC7000AC8410 /* pet-bottle_44335-101x101.jpg */; };
-		912D22C3235AFCC000AC8410 /* 117507m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912D22C2235AFCC000AC8410 /* 117507m.jpg */; };
-		912D22C5235AFCD000AC8410 /* register_fukuro_42738-101x101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 912D22C4235AFCD000AC8410 /* register_fukuro_42738-101x101.jpg */; };
+		9174E81C238823E400677436 /* bottle (Copy).png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E81B238823E400677436 /* bottle (Copy).png */; };
+		9174E81E23882B9800677436 /* hukuro.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E81D23882B9800677436 /* hukuro.png */; };
+		9174E820238832B100677436 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E81F238832B100677436 /* paper.png */; };
+		9174E846238914C700677436 /* 1643.png in Resources */ = {isa = PBXBuildFile; fileRef = 9174E845238914C700677436 /* 1643.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9120DF82237FBB47009E68F8 /* colenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colenderViewController.swift; sourceTree = "<group>"; };
 		912D227E235ADBAB00AC8410 /* gurbage counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gurbage counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		912D2281235ADBAB00AC8410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		912D2283235ADBAB00AC8410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +28,10 @@
 		912D2288235ADBAE00AC8410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912D228B235ADBAE00AC8410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		912D228D235ADBAE00AC8410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		912D22C0235AFC7000AC8410 /* pet-bottle_44335-101x101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pet-bottle_44335-101x101.jpg"; sourceTree = "<group>"; };
-		912D22C2235AFCC000AC8410 /* 117507m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 117507m.jpg; sourceTree = "<group>"; };
-		912D22C4235AFCD000AC8410 /* register_fukuro_42738-101x101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "register_fukuro_42738-101x101.jpg"; sourceTree = "<group>"; };
+		9174E81B238823E400677436 /* bottle (Copy).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottle (Copy).png"; sourceTree = "<group>"; };
+		9174E81D23882B9800677436 /* hukuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hukuro.png; sourceTree = "<group>"; };
+		9174E81F238832B100677436 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		9174E845238914C700677436 /* 1643.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1643.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			children = (
 				912D2281235ADBAB00AC8410 /* AppDelegate.swift */,
 				912D2283235ADBAB00AC8410 /* ViewController.swift */,
+				9120DF82237FBB47009E68F8 /* colenderViewController.swift */,
 				912D2285235ADBAB00AC8410 /* Main.storyboard */,
 				912D2288235ADBAE00AC8410 /* Assets.xcassets */,
 				912D22C6235AFCD800AC8410 /* New Group */,
@@ -74,9 +79,10 @@
 		912D22C6235AFCD800AC8410 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				912D22C4235AFCD000AC8410 /* register_fukuro_42738-101x101.jpg */,
-				912D22C2235AFCC000AC8410 /* 117507m.jpg */,
-				912D22C0235AFC7000AC8410 /* pet-bottle_44335-101x101.jpg */,
+				9174E81F238832B100677436 /* paper.png */,
+				9174E81B238823E400677436 /* bottle (Copy).png */,
+				9174E81D23882B9800677436 /* hukuro.png */,
+				9174E845238914C700677436 /* 1643.png */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -139,11 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9174E820238832B100677436 /* paper.png in Resources */,
+				9174E846238914C700677436 /* 1643.png in Resources */,
 				912D228C235ADBAE00AC8410 /* LaunchScreen.storyboard in Resources */,
-				912D22C3235AFCC000AC8410 /* 117507m.jpg in Resources */,
-				912D22C5235AFCD000AC8410 /* register_fukuro_42738-101x101.jpg in Resources */,
+				9174E81E23882B9800677436 /* hukuro.png in Resources */,
+				9174E81C238823E400677436 /* bottle (Copy).png in Resources */,
 				912D2289235ADBAE00AC8410 /* Assets.xcassets in Resources */,
-				912D22C1235AFC7000AC8410 /* pet-bottle_44335-101x101.jpg in Resources */,
 				912D2287235ADBAB00AC8410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				912D2284235ADBAB00AC8410 /* ViewController.swift in Sources */,
+				9120DF83237FBB47009E68F8 /* colenderViewController.swift in Sources */,
 				912D2282235ADBAB00AC8410 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
